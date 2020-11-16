@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ActivtyNFragment">
-        <activity android:name=".ui.main.FragmentsActivity"></activity>
+        <activity android:name=".FragmentsActivity"></activity>
         <activity
             android:name=".TabsActivity"
             android:label="@string/title_activity_tabs"

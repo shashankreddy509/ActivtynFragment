@@ -1,4 +1,4 @@
-package com.tspl.activtynfragment.ui.main
+package com.tspl.activtynfragment
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
