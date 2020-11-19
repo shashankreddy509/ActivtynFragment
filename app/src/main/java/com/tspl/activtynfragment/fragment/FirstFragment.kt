@@ -41,7 +41,7 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         view.findViewById<View>(R.id.text3).setOnClickListener {
-            activity?.supportFragmentManager!!.beginTransaction()
+            activity?.supportFragmentManager!!.beginTransaction().addToBackStack("")
                 .add(R.id.flMain, SecondFragment()).commit()
         }
     }
